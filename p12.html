@@ -1,0 +1,22 @@
+<script type="text/javascript">
+  
+    var num = 19; 
+    var i = 2;
+    var isPrime = true;
+
+      while (i < num){
+        if (num % i == 0) {
+        isPrime = false;
+        break;
+       }
+    i++;
+    }
+
+      if (isPrime){
+          document.write(num + " is a prime number");
+      } 
+      else{
+          document.write(num + " is not a prime number");
+      }
+
+</script>
